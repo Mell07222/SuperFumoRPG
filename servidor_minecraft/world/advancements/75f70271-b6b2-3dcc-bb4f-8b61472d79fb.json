@@ -5,21 +5,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2025-03-26 16:45:12 +0000"
-    },
-    "done": true
-  },
   "mowziesmobs:root": {
     "criteria": {
       "custom_test_name": "2025-03-26 16:43:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2025-03-26 16:45:12 +0000"
     },
     "done": true
   },
@@ -41,6 +29,42 @@
     },
     "done": true
   },
+  "divinerpg:overworld/patchouli": {
+    "criteria": {
+      "tick": "2025-03-26 16:43:28 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2025-03-26 16:43:28 +0000"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/root": {
+    "criteria": {
+      "divinerpg": "2025-03-26 16:43:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2025-03-26 16:43:29 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-03-26 16:45:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-03-26 16:45:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2025-03-26 16:45:12 +0000"
@@ -50,12 +74,6 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2025-03-26 16:45:12 +0000"
-    },
-    "done": true
-  },
-  "divinerpg:overworld/patchouli": {
-    "criteria": {
-      "tick": "2025-03-26 16:43:28 +0000"
     },
     "done": true
   },
@@ -83,18 +101,6 @@
     },
     "done": true
   },
-  "cataclysm:root": {
-    "criteria": {
-      "custom_test_name": "2025-03-26 16:43:28 +0000"
-    },
-    "done": true
-  },
-  "divinerpg:overworld/root": {
-    "criteria": {
-      "divinerpg": "2025-03-26 16:43:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2025-03-26 16:45:12 +0000"
@@ -106,12 +112,6 @@
       "in_water": "2025-03-26 16:45:12 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:old_growth_pine_taiga": "2025-03-26 16:43:29 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
