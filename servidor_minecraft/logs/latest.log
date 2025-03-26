@@ -1,84 +1,84 @@
-[26Mar2025 22:53:15.227] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[26Mar2025 22:53:15.231] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[26Mar2025 22:53:16.068] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[26Mar2025 22:53:16.121] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/SuperFumoRPG/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[26Mar2025 22:53:16.475] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SuperFumoRPG/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[26Mar2025 22:53:16.476] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SuperFumoRPG/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26Mar2025 22:53:16.477] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SuperFumoRPG/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26Mar2025 22:53:16.478] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SuperFumoRPG/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26Mar2025 22:53:16.817] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[26Mar2025 22:53:20.036] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[26Mar2025 22:53:20.126] [main/ERROR] [mixin/]: Mixin config imm_ptl.mixins.json does not specify "minVersion" property
-[26Mar2025 22:53:20.130] [main/ERROR] [mixin/]: Mixin config imm_ptl_fabric.mixins.json does not specify "minVersion" property
-[26Mar2025 22:53:20.135] [main/ERROR] [mixin/]: Mixin config imm_ptl_compat.mixins.json does not specify "minVersion" property
-[26Mar2025 22:53:20.140] [main/ERROR] [mixin/]: Mixin config imm_ptl_peripheral.mixins.json does not specify "minVersion" property
-[26Mar2025 22:53:20.141] [main/ERROR] [mixin/]: Mixin config q_misc_util.mixins.json does not specify "minVersion" property
-[26Mar2025 22:53:20.147] [main/ERROR] [mixin/]: Mixin config cameraoverhaul.mixins.json does not specify "minVersion" property
-[26Mar2025 22:53:20.177] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
-[26Mar2025 22:53:20.284] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[26Mar2025 22:53:20.485] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 125 options available, 0 override(s) found
-[26Mar2025 22:53:20.557] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Mar2025 22:53:21.146] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[26Mar2025 22:53:21.172] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[26Mar2025 22:53:22.351] [main/WARN] [mixin/]: Error loading class: noppes/npcs/client/model/animation/AnimationHandler (java.lang.ClassNotFoundException: noppes.npcs.client.model.animation.AnimationHandler)
-[26Mar2025 22:53:22.370] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
-[26Mar2025 22:53:22.371] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
-[26Mar2025 22:53:22.374] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
-[26Mar2025 22:53:22.374] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/CookingPotBlockEntityMixin
-[26Mar2025 22:53:22.377] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/StoveBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.StoveBlockEntity)
-[26Mar2025 22:53:22.378] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.StoveBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/StoveBlockEntityMixin
-[26Mar2025 22:53:22.381] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
-[26Mar2025 22:53:22.382] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
-[26Mar2025 22:53:22.407] [main/WARN] [mixin/]: Error loading class: fuzs/easymagic/world/inventory/ModEnchantmentMenu (java.lang.ClassNotFoundException: fuzs.easymagic.world.inventory.ModEnchantmentMenu)
-[26Mar2025 22:53:22.408] [main/WARN] [mixin/]: @Mixin target fuzs.easymagic.world.inventory.ModEnchantmentMenu was not found skilltree.mixins.json:easymagic/ModEnchantmentMenuMixin
-[26Mar2025 22:53:22.410] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/ench/table/ApothEnchantmentMenu (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu)
-[26Mar2025 22:53:22.411] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu was not found skilltree.mixins.json:apotheosis/ApothEnchantContainerMixin
-[26Mar2025 22:53:22.414] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/SocketingRecipe (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe)
-[26Mar2025 22:53:22.415] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe was not found skilltree.mixins.json:apotheosis/SocketingRecipeMixin
-[26Mar2025 22:53:22.417] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/AttributeBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus)
-[26Mar2025 22:53:22.418] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus was not found skilltree.mixins.json:apotheosis/AttributeBonusMixin
-[26Mar2025 22:53:22.421] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/EnchantmentBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus)
-[26Mar2025 22:53:22.422] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus was not found skilltree.mixins.json:apotheosis/EnchantmentBonusMixin
-[26Mar2025 22:53:22.690] [main/WARN] [mixin/]: Error loading class: forge/net/mca/entity/ai/brain/tasks/ExtendedMeleeAttackTask (java.lang.ClassNotFoundException: forge.net.mca.entity.ai.brain.tasks.ExtendedMeleeAttackTask)
-[26Mar2025 22:53:22.692] [main/WARN] [mixin/]: Error loading class: fabric/net/mca/entity/ai/brain/tasks/ExtendedMeleeAttackTask (java.lang.ClassNotFoundException: fabric.net.mca.entity.ai.brain.tasks.ExtendedMeleeAttackTask)
-[26Mar2025 22:53:22.699] [main/WARN] [mixin/]: Error loading class: noppes/npcs/ai/EntityAIAttackTarget (java.lang.ClassNotFoundException: noppes.npcs.ai.EntityAIAttackTarget)
-[26Mar2025 22:53:22.702] [main/WARN] [mixin/]: Error loading class: tallestegg/guardvillagers/entities/Guard$GuardMeleeGoal (java.lang.ClassNotFoundException: tallestegg.guardvillagers.entities.Guard$GuardMeleeGoal)
-[26Mar2025 22:53:22.705] [main/WARN] [mixin/]: Error loading class: com/minecolonies/core/entity/ai/combat/AttackMoveAI (java.lang.ClassNotFoundException: com.minecolonies.core.entity.ai.combat.AttackMoveAI)
-[26Mar2025 22:53:22.708] [main/WARN] [mixin/]: Error loading class: com/minecolonies/core/entity/ai/workers/guard/KnightCombatAI (java.lang.ClassNotFoundException: com.minecolonies.core.entity.ai.workers.guard.KnightCombatAI)
-[26Mar2025 22:53:22.710] [main/WARN] [mixin/]: Error loading class: com/minecolonies/core/entity/mobs/aitasks/RaiderMeleeAI (java.lang.ClassNotFoundException: com.minecolonies.core.entity.mobs.aitasks.RaiderMeleeAI)
-[26Mar2025 22:53:22.713] [main/WARN] [mixin/]: Error loading class: dev/xkmc/modulargolems/content/entity/goals/GolemMeleeGoal (java.lang.ClassNotFoundException: dev.xkmc.modulargolems.content.entity.goals.GolemMeleeGoal)
-[26Mar2025 22:53:22.715] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/AbstractRecruitEntity (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.AbstractRecruitEntity)
-[26Mar2025 22:53:22.718] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/util/AttackUtil (java.lang.ClassNotFoundException: com.talhanation.recruits.util.AttackUtil)
-[26Mar2025 22:53:22.720] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/ai/HorsemanAttackAI (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.ai.HorsemanAttackAI)
-[26Mar2025 22:53:22.723] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/ai/pillager/PillagerMeleeAttackGoal (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.ai.pillager.PillagerMeleeAttackGoal)
-[26Mar2025 22:53:22.726] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/ai/RecruitEatGoal (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.ai.RecruitEatGoal)
-[26Mar2025 22:53:22.729] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/ai/RecruitMeleeAttackGoal (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.ai.RecruitMeleeAttackGoal)
-[26Mar2025 22:53:22.732] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/ai/UseShield (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.ai.UseShield)
-[26Mar2025 22:53:22.801] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/shaders/Program$Type (java.lang.ClassNotFoundException: com.mojang.blaze3d.shaders.Program$Type)
-[26Mar2025 22:53:22.816] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER
-[26Mar2025 22:53:22.817] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Camera (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER)
-[26Mar2025 22:53:22.818] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Camera was not found cameraoverhaul.mixins.json:CameraMixin
-[26Mar2025 22:53:22.820] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
-[26Mar2025 22:53:22.821] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
-[26Mar2025 22:53:22.821] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found cameraoverhaul.mixins.json:GameRendererMixin
-[26Mar2025 22:53:22.834] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
-[26Mar2025 22:53:22.835] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/LocalPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER)
-[26Mar2025 22:53:22.835] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.LocalPlayer was not found cameraoverhaul.mixins.json:LocalPlayerMixin
-[26Mar2025 22:53:22.927] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[26Mar2025 22:53:24.246] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[26Mar2025 22:53:24.247] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[26Mar2025 22:53:26.107] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[26Mar2025 22:53:26.108] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[26Mar2025 22:53:28.194] [main/WARN] [mixin/]: Method overwrite conflict for getHiddenEffect in werewolves.mixins.json:MobEffectInstanceAccessor, previously written by de.teamlapen.vampirism.mixin.MixinMobEffectInstance. Skipping method.
-[26Mar2025 22:53:30.049] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[26Mar2025 22:53:30.058] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[26Mar2025 22:53:30.064] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[26Mar2025 22:53:30.066] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[26Mar2025 22:53:30.069] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[26Mar2025 22:53:30.070] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[26Mar2025 22:53:30.072] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[26Mar2025 22:53:30.078] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[26Mar2025 22:53:30.395] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: immersive_portals, class qouteall.imm_ptl.peripheral.platform_specific.PeripheralModEntry
+[26Mar2025 22:55:35.378] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[26Mar2025 22:55:35.382] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[26Mar2025 22:55:36.171] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Mar2025 22:55:36.219] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/SuperFumoRPG/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Mar2025 22:55:36.653] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SuperFumoRPG/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[26Mar2025 22:55:36.654] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SuperFumoRPG/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Mar2025 22:55:36.657] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SuperFumoRPG/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Mar2025 22:55:36.659] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/SuperFumoRPG/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Mar2025 22:55:36.963] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[26Mar2025 22:55:40.137] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Mar2025 22:55:40.191] [main/ERROR] [mixin/]: Mixin config imm_ptl.mixins.json does not specify "minVersion" property
+[26Mar2025 22:55:40.193] [main/ERROR] [mixin/]: Mixin config imm_ptl_fabric.mixins.json does not specify "minVersion" property
+[26Mar2025 22:55:40.195] [main/ERROR] [mixin/]: Mixin config imm_ptl_compat.mixins.json does not specify "minVersion" property
+[26Mar2025 22:55:40.197] [main/ERROR] [mixin/]: Mixin config imm_ptl_peripheral.mixins.json does not specify "minVersion" property
+[26Mar2025 22:55:40.199] [main/ERROR] [mixin/]: Mixin config q_misc_util.mixins.json does not specify "minVersion" property
+[26Mar2025 22:55:40.201] [main/ERROR] [mixin/]: Mixin config cameraoverhaul.mixins.json does not specify "minVersion" property
+[26Mar2025 22:55:40.220] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
+[26Mar2025 22:55:40.305] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[26Mar2025 22:55:40.540] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 125 options available, 0 override(s) found
+[26Mar2025 22:55:40.607] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Mar2025 22:55:41.129] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Mar2025 22:55:41.150] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Mar2025 22:55:42.257] [main/WARN] [mixin/]: Error loading class: noppes/npcs/client/model/animation/AnimationHandler (java.lang.ClassNotFoundException: noppes.npcs.client.model.animation.AnimationHandler)
+[26Mar2025 22:55:42.280] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[26Mar2025 22:55:42.281] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
+[26Mar2025 22:55:42.284] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
+[26Mar2025 22:55:42.285] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/CookingPotBlockEntityMixin
+[26Mar2025 22:55:42.288] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/StoveBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.StoveBlockEntity)
+[26Mar2025 22:55:42.288] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.StoveBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/StoveBlockEntityMixin
+[26Mar2025 22:55:42.292] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
+[26Mar2025 22:55:42.292] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
+[26Mar2025 22:55:42.316] [main/WARN] [mixin/]: Error loading class: fuzs/easymagic/world/inventory/ModEnchantmentMenu (java.lang.ClassNotFoundException: fuzs.easymagic.world.inventory.ModEnchantmentMenu)
+[26Mar2025 22:55:42.317] [main/WARN] [mixin/]: @Mixin target fuzs.easymagic.world.inventory.ModEnchantmentMenu was not found skilltree.mixins.json:easymagic/ModEnchantmentMenuMixin
+[26Mar2025 22:55:42.320] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/ench/table/ApothEnchantmentMenu (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu)
+[26Mar2025 22:55:42.321] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu was not found skilltree.mixins.json:apotheosis/ApothEnchantContainerMixin
+[26Mar2025 22:55:42.328] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/SocketingRecipe (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe)
+[26Mar2025 22:55:42.328] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.SocketingRecipe was not found skilltree.mixins.json:apotheosis/SocketingRecipeMixin
+[26Mar2025 22:55:42.335] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/AttributeBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus)
+[26Mar2025 22:55:42.335] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.AttributeBonus was not found skilltree.mixins.json:apotheosis/AttributeBonusMixin
+[26Mar2025 22:55:42.342] [main/WARN] [mixin/]: Error loading class: dev/shadowsoffire/apotheosis/adventure/socket/gem/bonus/EnchantmentBonus (java.lang.ClassNotFoundException: dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus)
+[26Mar2025 22:55:42.343] [main/WARN] [mixin/]: @Mixin target dev.shadowsoffire.apotheosis.adventure.socket.gem.bonus.EnchantmentBonus was not found skilltree.mixins.json:apotheosis/EnchantmentBonusMixin
+[26Mar2025 22:55:42.675] [main/WARN] [mixin/]: Error loading class: forge/net/mca/entity/ai/brain/tasks/ExtendedMeleeAttackTask (java.lang.ClassNotFoundException: forge.net.mca.entity.ai.brain.tasks.ExtendedMeleeAttackTask)
+[26Mar2025 22:55:42.678] [main/WARN] [mixin/]: Error loading class: fabric/net/mca/entity/ai/brain/tasks/ExtendedMeleeAttackTask (java.lang.ClassNotFoundException: fabric.net.mca.entity.ai.brain.tasks.ExtendedMeleeAttackTask)
+[26Mar2025 22:55:42.698] [main/WARN] [mixin/]: Error loading class: noppes/npcs/ai/EntityAIAttackTarget (java.lang.ClassNotFoundException: noppes.npcs.ai.EntityAIAttackTarget)
+[26Mar2025 22:55:42.703] [main/WARN] [mixin/]: Error loading class: tallestegg/guardvillagers/entities/Guard$GuardMeleeGoal (java.lang.ClassNotFoundException: tallestegg.guardvillagers.entities.Guard$GuardMeleeGoal)
+[26Mar2025 22:55:42.712] [main/WARN] [mixin/]: Error loading class: com/minecolonies/core/entity/ai/combat/AttackMoveAI (java.lang.ClassNotFoundException: com.minecolonies.core.entity.ai.combat.AttackMoveAI)
+[26Mar2025 22:55:42.716] [main/WARN] [mixin/]: Error loading class: com/minecolonies/core/entity/ai/workers/guard/KnightCombatAI (java.lang.ClassNotFoundException: com.minecolonies.core.entity.ai.workers.guard.KnightCombatAI)
+[26Mar2025 22:55:42.718] [main/WARN] [mixin/]: Error loading class: com/minecolonies/core/entity/mobs/aitasks/RaiderMeleeAI (java.lang.ClassNotFoundException: com.minecolonies.core.entity.mobs.aitasks.RaiderMeleeAI)
+[26Mar2025 22:55:42.722] [main/WARN] [mixin/]: Error loading class: dev/xkmc/modulargolems/content/entity/goals/GolemMeleeGoal (java.lang.ClassNotFoundException: dev.xkmc.modulargolems.content.entity.goals.GolemMeleeGoal)
+[26Mar2025 22:55:42.724] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/AbstractRecruitEntity (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.AbstractRecruitEntity)
+[26Mar2025 22:55:42.726] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/util/AttackUtil (java.lang.ClassNotFoundException: com.talhanation.recruits.util.AttackUtil)
+[26Mar2025 22:55:42.730] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/ai/HorsemanAttackAI (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.ai.HorsemanAttackAI)
+[26Mar2025 22:55:42.733] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/ai/pillager/PillagerMeleeAttackGoal (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.ai.pillager.PillagerMeleeAttackGoal)
+[26Mar2025 22:55:42.735] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/ai/RecruitEatGoal (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.ai.RecruitEatGoal)
+[26Mar2025 22:55:42.739] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/ai/RecruitMeleeAttackGoal (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.ai.RecruitMeleeAttackGoal)
+[26Mar2025 22:55:42.740] [main/WARN] [mixin/]: Error loading class: com/talhanation/recruits/entities/ai/UseShield (java.lang.ClassNotFoundException: com.talhanation.recruits.entities.ai.UseShield)
+[26Mar2025 22:55:42.797] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/shaders/Program$Type (java.lang.ClassNotFoundException: com.mojang.blaze3d.shaders.Program$Type)
+[26Mar2025 22:55:42.809] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER
+[26Mar2025 22:55:42.810] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Camera (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER)
+[26Mar2025 22:55:42.810] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Camera was not found cameraoverhaul.mixins.json:CameraMixin
+[26Mar2025 22:55:42.812] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
+[26Mar2025 22:55:42.813] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
+[26Mar2025 22:55:42.813] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found cameraoverhaul.mixins.json:GameRendererMixin
+[26Mar2025 22:55:42.823] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+[26Mar2025 22:55:42.824] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/LocalPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER)
+[26Mar2025 22:55:42.824] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.LocalPlayer was not found cameraoverhaul.mixins.json:LocalPlayerMixin
+[26Mar2025 22:55:42.901] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[26Mar2025 22:55:44.232] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Mar2025 22:55:44.236] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Mar2025 22:55:46.042] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Mar2025 22:55:46.042] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Mar2025 22:55:48.077] [main/WARN] [mixin/]: Method overwrite conflict for getHiddenEffect in werewolves.mixins.json:MobEffectInstanceAccessor, previously written by de.teamlapen.vampirism.mixin.MixinMobEffectInstance. Skipping method.
+[26Mar2025 22:55:50.019] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[26Mar2025 22:55:50.021] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[26Mar2025 22:55:50.028] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[26Mar2025 22:55:50.030] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[26Mar2025 22:55:50.035] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[26Mar2025 22:55:50.036] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[26Mar2025 22:55:50.037] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[26Mar2025 22:55:50.052] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[26Mar2025 22:55:50.374] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: immersive_portals, class qouteall.imm_ptl.peripheral.platform_specific.PeripheralModEntry
 java.lang.NoSuchMethodException: qouteall.imm_ptl.peripheral.platform_specific.PeripheralModEntry.<init>()
 	at java.lang.Class.getConstructor0(Class.java:3585) ~[?:?]
 	at java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[?:?]
@@ -91,7 +91,7 @@ java.lang.NoSuchMethodException: qouteall.imm_ptl.peripheral.platform_specific.P
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[26Mar2025 22:53:30.408] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: imm_ptl_core, class qouteall.imm_ptl.core.platform_specific.IPModEntry
+[26Mar2025 22:55:50.387] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: imm_ptl_core, class qouteall.imm_ptl.core.platform_specific.IPModEntry
 java.lang.NoSuchMethodException: qouteall.imm_ptl.core.platform_specific.IPModEntry.<init>()
 	at java.lang.Class.getConstructor0(Class.java:3585) ~[?:?]
 	at java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[?:?]
@@ -104,7 +104,7 @@ java.lang.NoSuchMethodException: qouteall.imm_ptl.core.platform_specific.IPModEn
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[26Mar2025 22:53:30.412] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: q_misc_util, class qouteall.q_misc_util.MiscUtilModEntry
+[26Mar2025 22:55:50.398] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: q_misc_util, class qouteall.q_misc_util.MiscUtilModEntry
 java.lang.NoSuchMethodException: qouteall.q_misc_util.MiscUtilModEntry.<init>()
 	at java.lang.Class.getConstructor0(Class.java:3585) ~[?:?]
 	at java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[?:?]
@@ -117,27 +117,27 @@ java.lang.NoSuchMethodException: qouteall.q_misc_util.MiscUtilModEntry.<init>()
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[26Mar2025 22:53:30.459] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[26Mar2025 22:53:30.459] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[26Mar2025 22:53:30.497] [modloading-worker-0/INFO] [MoreTotems/]: Hello Forge world!
-[26Mar2025 22:53:30.970] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
-[26Mar2025 22:53:30.981] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[26Mar2025 22:53:30.985] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[26Mar2025 22:53:30.992] [modloading-worker-0/INFO] [necronomicon/]: there is a brick about to fall through your roof at terminal velocity
-[26Mar2025 22:53:31.109] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
-[26Mar2025 22:53:31.116] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
-[26Mar2025 22:53:31.794] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
-[26Mar2025 22:53:31.806] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
-[26Mar2025 22:53:32.181] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
-[26Mar2025 22:53:32.215] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id dimdoors:server/c5e0ff8556d73fd99e08cadf0276e74d
-[26Mar2025 22:53:32.219] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id dimdoors:server/1f03bbe6451e3ab4b0f46844399676ae
-[26Mar2025 22:53:32.401] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[26Mar2025 22:53:34.091] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered events
-[26Mar2025 22:53:35.307] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 3 errors found
-[26Mar2025 22:53:35.387] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 2287a0d2-bb71-46c1-a5a0-91e04945b55a
-[26Mar2025 22:53:35.388] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-03-26_22.53.35-fml.txt
-[26Mar2025 22:53:35.396] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID ae2240a0-3b16-4793-b5a7-d77f5b8077a7
-[26Mar2025 22:53:35.401] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+[26Mar2025 22:55:50.453] [modloading-worker-0/INFO] [MoreTotems/]: Hello Forge world!
+[26Mar2025 22:55:50.459] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[26Mar2025 22:55:50.459] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[26Mar2025 22:55:50.900] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[26Mar2025 22:55:50.908] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[26Mar2025 22:55:50.908] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[26Mar2025 22:55:50.915] [modloading-worker-0/INFO] [necronomicon/]: there is a brick about to fall through your roof at terminal velocity
+[26Mar2025 22:55:51.035] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[26Mar2025 22:55:51.039] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[26Mar2025 22:55:51.687] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[26Mar2025 22:55:51.688] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[26Mar2025 22:55:52.062] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id dimdoors:server/c5e0ff8556d73fd99e08cadf0276e74d
+[26Mar2025 22:55:52.066] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id dimdoors:server/1f03bbe6451e3ab4b0f46844399676ae
+[26Mar2025 22:55:52.186] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
+[26Mar2025 22:55:52.340] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[26Mar2025 22:55:53.690] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered events
+[26Mar2025 22:55:55.252] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 3 errors found
+[26Mar2025 22:55:55.312] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID c4b0880f-6647-4527-90f4-71f9894fedbd
+[26Mar2025 22:55:55.313] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-03-26_22.55.55-fml.txt
+[26Mar2025 22:55:55.319] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID beb9d4ab-a9c6-4a27-aebb-a44c7e7ab826
+[26Mar2025 22:55:55.324] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
 net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
 	Immersive Portals (immersive_portals) has failed to load correctly
 §7java.lang.NoSuchMethodException: qouteall.imm_ptl.peripheral.platform_specific.PeripheralModEntry.<init>(),
