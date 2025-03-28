@@ -977,3 +977,46 @@ com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
 [28Mar2025 23:17:40.342] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
 [28Mar2025 23:17:40.359] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@e14b0f9[id=<null>,name=KazuuX_,properties={},legacy=false] (/127.36.32.21:55043) lost connection: Connection closed - mismatched mod channel list
 [28Mar2025 23:18:00.409] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5417c012[id=<null>,name=KazuuX_,properties={},legacy=false] (/127.36.32.21:38385) lost connection: Disconnected
+[28Mar2025 23:18:03.868] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [enchantinginfuser:1,carryon:carryonpackets,sophisticatedbackpacks:channel,sophisticatedcore:channel] rejected their client side version number
+[28Mar2025 23:18:03.869] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[28Mar2025 23:18:03.910] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3372b323[id=<null>,name=KazuuX_,properties={},legacy=false] (/127.36.32.21:35711) lost connection: Connection closed - mismatched mod channel list
+[28Mar2025 23:19:08.509] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4417bffa[id=<null>,name=KazuuX_,properties={},legacy=false] (/127.36.32.21:50657) lost connection: Disconnected
+[28Mar2025 23:19:11.611] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [enchantinginfuser:1,carryon:carryonpackets,sophisticatedbackpacks:channel,sophisticatedcore:channel] rejected their client side version number
+[28Mar2025 23:19:11.612] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[28Mar2025 23:19:11.659] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6faf4cf9[id=<null>,name=KazuuX_,properties={},legacy=false] (/127.36.32.21:53313) lost connection: Connection closed - mismatched mod channel list
+[28Mar2025 23:19:24.859] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@552164e[id=<null>,name=KazuuX_,properties={},legacy=false] (/127.36.32.21:38235) lost connection: Disconnected
+[28Mar2025 23:19:28.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[28Mar2025 23:19:28.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Mar2025 23:19:28.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Mar2025 23:19:28.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Mar2025 23:19:29.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[28Mar2025 23:19:29.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdoors:limbo
+[28Mar2025 23:19:29.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:apalachia
+[28Mar2025 23:19:29.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdoors:public_pockets
+[28Mar2025 23:19:29.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:mortum
+[28Mar2025 23:19:29.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdoors:personal_pockets
+[28Mar2025 23:19:29.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:iceika
+[28Mar2025 23:19:29.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:eden
+[28Mar2025 23:19:29.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:vethea
+[28Mar2025 23:19:29.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:skythern
+[28Mar2025 23:19:29.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[28Mar2025 23:19:29.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdoors:dungeon_pockets
+[28Mar2025 23:19:29.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:wildwood
+[28Mar2025 23:19:29.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:arcana
+[28Mar2025 23:19:29.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[28Mar2025 23:19:29.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[28Mar2025 23:19:29.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (limbo): All chunks are saved
+[28Mar2025 23:19:29.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (apalachia): All chunks are saved
+[28Mar2025 23:19:29.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (public_pockets): All chunks are saved
+[28Mar2025 23:19:29.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mortum): All chunks are saved
+[28Mar2025 23:19:29.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (personal_pockets): All chunks are saved
+[28Mar2025 23:19:29.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (iceika): All chunks are saved
+[28Mar2025 23:19:29.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (eden): All chunks are saved
+[28Mar2025 23:19:29.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vethea): All chunks are saved
+[28Mar2025 23:19:29.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skythern): All chunks are saved
+[28Mar2025 23:19:29.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Mar2025 23:19:29.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon_pockets): All chunks are saved
+[28Mar2025 23:19:29.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (wildwood): All chunks are saved
+[28Mar2025 23:19:29.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arcana): All chunks are saved
+[28Mar2025 23:19:29.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Mar2025 23:19:29.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
