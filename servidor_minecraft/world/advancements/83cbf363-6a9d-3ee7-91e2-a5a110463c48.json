@@ -51,10 +51,16 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-03-26 23:23:46 +0000",
       "minecraft:taiga": "2025-03-26 23:52:02 +0000",
+      "minecraft:cherry_grove": "2025-03-28 01:54:37 +0000",
+      "minecraft:savanna_plateau": "2025-03-28 01:54:57 +0000",
+      "minecraft:mangrove_swamp": "2025-03-28 01:55:33 +0000",
       "minecraft:river": "2025-03-26 23:30:03 +0000",
       "minecraft:cold_ocean": "2025-03-27 00:47:14 +0000",
+      "minecraft:forest": "2025-03-28 01:33:14 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-03-26 23:30:12 +0000",
-      "minecraft:meadow": "2025-03-27 00:03:53 +0000"
+      "minecraft:meadow": "2025-03-27 00:03:53 +0000",
+      "minecraft:savanna": "2025-03-28 02:04:29 +0000",
+      "minecraft:plains": "2025-03-28 01:44:48 +0000"
     },
     "done": false
   },
@@ -1145,6 +1151,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-03-28 01:34:28 +0000",
       "minecraft:skeleton": "2025-03-27 00:07:31 +0000",
       "minecraft:spider": "2025-03-27 00:49:50 +0000",
       "minecraft:witch": "2025-03-27 00:48:31 +0000",
@@ -1761,6 +1768,246 @@
   "vampirism:recipes/combat/vampire/vampire_clothing_legs": {
     "criteria": {
       "has_heart": "2025-03-27 01:40:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-03-28 01:35:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-03-28 01:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-03-28 01:47:06 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_bone_wall": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "skilltree:recipes/combat/quiver": {
+    "criteria": {
+      "has_leather": "2025-03-28 01:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-03-28 01:47:05 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_flute": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-03-28 01:47:05 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/skull_to_bone_meal": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/terran_stone": {
+    "criteria": {
+      "has_shards": "2025-03-28 01:47:13 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/nest": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/backpack": {
+    "criteria": {
+      "has_leather": "2025-03-28 01:47:05 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonbone_bow": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-03-28 01:47:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-03-28 01:47:05 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragon_bone_block": {
+    "criteria": {
+      "has_dragonbone": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/furnace/boiled_egg": {
+    "criteria": {
+      "has_egg": "2025-03-28 01:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-03-28 01:52:13 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_hoe": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2025-03-28 02:02:07 +0000"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/campfire/boiled_egg": {
+    "criteria": {
+      "has_egg": "2025-03-28 01:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-03-28 01:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-03-28 01:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-03-28 01:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-03-28 01:47:06 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/blindfold": {
+    "criteria": {
+      "has_item": "2025-03-28 01:47:05 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_shovel": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/zombie_pumpkin": {
+    "criteria": {
+      "has_rotten_flesh": "2025-03-28 02:00:57 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_axe": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_pickaxe": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/aqua_lamp": {
+    "criteria": {
+      "has_water": "2025-03-28 01:52:13 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/upgrade_base": {
+    "criteria": {
+      "has_leather": "2025-03-28 01:47:05 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-03-28 02:02:24 +0000"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/smoker/boiled_egg": {
+    "criteria": {
+      "has_egg": "2025-03-28 01:47:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_sword": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2025-03-28 02:03:21 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_horn": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_stick": {
+    "criteria": {
+      "has_item": "2025-03-28 02:04:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-03-28 02:02:07 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-03-28 02:02:24 +0000"
     },
     "done": true
   },
