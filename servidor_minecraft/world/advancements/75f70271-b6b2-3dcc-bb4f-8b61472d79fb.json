@@ -2396,21 +2396,9 @@
     },
     "done": true
   },
-  "iceandfire:recipes/misc/dragon_bone_wall": {
+  "iceandfire:recipes/misc/dragon_ice_spikes": {
     "criteria": {
-      "has_item": "2025-03-28 02:25:22 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/armor_blue_leggings": {
-    "criteria": {
-      "has_item": "2025-03-28 02:25:26 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/dragon_flute": {
-    "criteria": {
-      "has_item": "2025-03-28 02:25:22 +0000"
+      "has_item": "2025-03-28 02:25:03 +0000"
     },
     "done": true
   },
@@ -2420,9 +2408,21 @@
     },
     "done": true
   },
-  "iceandfire:recipes/misc/skull_to_bone_meal": {
+  "vampirism:recipes/alchemy_table/alchemy_table/plant_oil": {
     "criteria": {
-      "has_item": "2025-03-28 02:25:26 +0000"
+      "has_wheat_seeds": "2025-03-28 02:25:18 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_bone_wall": {
+    "criteria": {
+      "has_item": "2025-03-28 02:25:22 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_flute": {
+    "criteria": {
+      "has_item": "2025-03-28 02:25:22 +0000"
     },
     "done": true
   },
@@ -2450,15 +2450,51 @@
     },
     "done": true
   },
-  "iceandfire:recipes/building_blocks/dragonscales_blue_to_dragonscale_blue": {
-    "criteria": {
-      "has_dragonscales_blue": "2025-03-28 02:25:26 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/tools/dragonbone_shovel": {
     "criteria": {
       "has_item": "2025-03-28 02:25:22 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_axe": {
+    "criteria": {
+      "has_item": "2025-03-28 02:25:22 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_pickaxe": {
+    "criteria": {
+      "has_item": "2025-03-28 02:25:22 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_sword": {
+    "criteria": {
+      "has_item": "2025-03-28 02:25:22 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_horn": {
+    "criteria": {
+      "has_item": "2025-03-28 02:25:22 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_blue_leggings": {
+    "criteria": {
+      "has_item": "2025-03-28 02:25:26 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/skull_to_bone_meal": {
+    "criteria": {
+      "has_item": "2025-03-28 02:25:26 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_blue_to_dragonscale_blue": {
+    "criteria": {
+      "has_dragonscales_blue": "2025-03-28 02:25:26 +0000"
     },
     "done": true
   },
@@ -2474,57 +2510,21 @@
     },
     "done": true
   },
-  "iceandfire:recipes/tools/dragonbone_axe": {
-    "criteria": {
-      "has_item": "2025-03-28 02:25:22 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/combat/armor_blue_helmet": {
     "criteria": {
       "has_item": "2025-03-28 02:25:26 +0000"
     },
     "done": true
   },
-  "iceandfire:recipes/tools/dragonbone_pickaxe": {
+  "iceandfire:recipes/misc/dragon_stick": {
     "criteria": {
-      "has_item": "2025-03-28 02:25:22 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/dragon_ice_spikes": {
-    "criteria": {
-      "has_item": "2025-03-28 02:25:03 +0000"
+      "has_item": "2025-03-28 02:25:26 +0000"
     },
     "done": true
   },
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2025-03-28 02:35:08 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/tools/dragonbone_sword": {
-    "criteria": {
-      "has_item": "2025-03-28 02:25:22 +0000"
-    },
-    "done": true
-  },
-  "vampirism:recipes/alchemy_table/alchemy_table/plant_oil": {
-    "criteria": {
-      "has_wheat_seeds": "2025-03-28 02:25:18 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/dragon_horn": {
-    "criteria": {
-      "has_item": "2025-03-28 02:25:22 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/dragon_stick": {
-    "criteria": {
-      "has_item": "2025-03-28 02:25:26 +0000"
     },
     "done": true
   },

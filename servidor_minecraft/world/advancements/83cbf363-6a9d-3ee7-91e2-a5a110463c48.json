@@ -49,13 +49,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-03-28 23:27:55 +0000",
       "minecraft:old_growth_pine_taiga": "2025-03-26 23:23:46 +0000",
       "minecraft:taiga": "2025-03-26 23:52:02 +0000",
       "minecraft:cherry_grove": "2025-03-28 01:54:37 +0000",
+      "minecraft:sunflower_plains": "2025-03-28 23:29:20 +0000",
       "minecraft:savanna_plateau": "2025-03-28 01:54:57 +0000",
       "minecraft:stony_peaks": "2025-03-28 02:15:54 +0000",
       "minecraft:mangrove_swamp": "2025-03-28 01:55:33 +0000",
       "minecraft:river": "2025-03-26 23:30:03 +0000",
+      "minecraft:jagged_peaks": "2025-03-28 23:28:21 +0000",
       "minecraft:cold_ocean": "2025-03-27 00:47:14 +0000",
       "minecraft:forest": "2025-03-28 01:33:14 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-03-26 23:30:12 +0000",
@@ -2079,39 +2082,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+  "dungeons_arise:find_illager_campsite": {
     "criteria": {
-      "has_gold_block": "2025-03-28 02:39:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
-    "criteria": {
-      "has_sentry_armor_trim_smithing_template": "2025-03-28 02:36:22 +0000"
-    },
-    "done": true
-  },
-  "nameless_trinkets:obtain/blaze_nucleus": {
-    "criteria": {
-      "blaze_nucleus": "2025-03-28 02:36:46 +0000"
-    },
-    "done": true
-  },
-  "nameless_trinkets:obtain/cracked_crown": {
-    "criteria": {
-      "cracked_crown": "2025-03-28 02:30:08 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/pumpkin_pie": {
-    "criteria": {
-      "has_pumpkin": "2025-03-28 02:40:23 +0000"
-    },
-    "done": true
-  },
-  "nameless_trinkets:obtain/pocket_lightning_rood": {
-    "criteria": {
-      "amphibious_hands": "2025-03-28 02:35:19 +0000"
+      "location0": "2025-03-28 02:28:02 +0000"
     },
     "done": true
   },
@@ -2121,21 +2094,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/nether_brick": {
-    "criteria": {
-      "has_netherrack": "2025-03-28 02:39:13 +0000"
-    },
-    "done": true
-  },
   "nameless_trinkets:obtain/root": {
     "criteria": {
       "obtain": "2025-03-28 02:30:07 +0000"
     },
     "done": true
   },
+  "nameless_trinkets:obtain/cracked_crown": {
+    "criteria": {
+      "cracked_crown": "2025-03-28 02:30:08 +0000"
+    },
+    "done": true
+  },
+  "nameless_trinkets:obtain/tear_of_the_sea": {
+    "criteria": {
+      "tear_of_the_sea": "2025-03-28 02:30:13 +0000"
+    },
+    "done": true
+  },
+  "nameless_trinkets:obtain/pocket_lightning_rood": {
+    "criteria": {
+      "amphibious_hands": "2025-03-28 02:35:19 +0000"
+    },
+    "done": true
+  },
   "nameless_trinkets:obtain/callus": {
     "criteria": {
       "callus": "2025-03-28 02:35:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2025-03-28 02:36:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-28 02:36:22 +0000"
+    },
+    "done": true
+  },
+  "nameless_trinkets:obtain/blaze_nucleus": {
+    "criteria": {
+      "blaze_nucleus": "2025-03-28 02:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-03-28 02:39:05 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/weapontable/crucifix_ultimate": {
+    "criteria": {
+      "gold": "2025-03-28 02:39:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-03-28 02:39:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-03-28 02:40:23 +0000"
     },
     "done": true
   },
@@ -2146,33 +2173,9 @@
     },
     "done": true
   },
-  "nameless_trinkets:obtain/tear_of_the_sea": {
-    "criteria": {
-      "tear_of_the_sea": "2025-03-28 02:30:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2025-03-28 02:40:23 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_illager_campsite": {
-    "criteria": {
-      "location0": "2025-03-28 02:28:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-03-28 02:36:22 +0000"
-    },
-    "done": true
-  },
-  "vampirism:recipes/combat/weapontable/crucifix_ultimate": {
-    "criteria": {
-      "gold": "2025-03-28 02:39:05 +0000"
     },
     "done": true
   },
