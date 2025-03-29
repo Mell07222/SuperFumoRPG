@@ -1160,6 +1160,7 @@
       "minecraft:skeleton": "2025-03-27 00:07:31 +0000",
       "minecraft:spider": "2025-03-27 00:49:50 +0000",
       "minecraft:witch": "2025-03-27 00:48:31 +0000",
+      "minecraft:husk": "2025-03-28 23:54:00 +0000",
       "minecraft:zombie": "2025-03-27 01:35:58 +0000"
     },
     "done": false
@@ -2176,6 +2177,66 @@
   "minecraft:recipes/food/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2025-03-28 02:40:23 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_ice": {
+    "criteria": {
+      "has_item": "2025-03-28 23:40:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-03-28 23:51:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-03-29 00:02:23 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2025-03-28 23:47:14 +0000"
+    },
+    "done": true
+  },
+  "paraglider:pray_to_the_goddess": {
+    "criteria": {
+      "bargain": "2025-03-28 23:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-03-28 23:46:13 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/silver_nugget_to_silver_ingot": {
+    "criteria": {
+      "has_silver_nugget": "2025-03-28 23:40:52 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_bathhouse": {
+    "criteria": {
+      "location0": "2025-03-28 23:50:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-03-29 00:02:23 +0000"
+    },
+    "done": true
+  },
+  "divinerpg:recipes/shaped/skeleton_torch": {
+    "criteria": {
+      "has_coal": "2025-03-28 23:52:18 +0000"
     },
     "done": true
   },
